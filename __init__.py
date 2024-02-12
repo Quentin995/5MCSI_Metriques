@@ -9,7 +9,7 @@ app = Flask(__name__) #Commentaire
                                                                                                                                        
 @app.route('/')
 def hello_world():
-    return render_template('hello Quentin.html') #h
+    return render_template('hello Quentin.html')
   
 if __name__ == "__main__":
   app.run(debug=True)
